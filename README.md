@@ -1,20 +1,25 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# M.I.A International School - Landing Page
 
-# Run and deploy your AI Studio app
+Official landing page for M.I.A International School, Kano.
 
-This contains everything you need to run your app locally.
+## Features
+- **Luxury UI/UX**: Royal Blue & Gold aesthetic with fluid animations.
+- **3D Book Animation**: Interactive curriculum showcase.
+- **MIA Digital Hub**: Student portal and result tracker placeholders.
+- **Admissions Pipeline**: 3-step lead generation form with WhatsApp redirect.
 
-View your app in AI Studio: https://ai.studio/apps/9b3f4134-0a5e-4894-a77e-a301bc7a2706
+## Deployment on Render
 
-## Run Locally
+1. **New Web Service**: Connect your GitHub repository.
+2. **Build Command**: `npm install && npm run build`
+3. **Start Command**: `npm run start`
+4. **Environment Variables**:
+   - `GEMINI_API_KEY`: (Optional) For AI features.
+   - `NODE_ENV`: `production`
 
-**Prerequisites:**  Node.js
+## Local Development
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
+npm install
+npm run dev
+```
